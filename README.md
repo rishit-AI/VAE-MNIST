@@ -21,12 +21,14 @@ A PyTorch implementation of a convolutional Variational Autoencoder (VAE) with a
 
 ```bash
 pip install torch torchvision matplotlib numpy
+```
 
-Training
+## Training
 ```bash
 python final_vae.py --epochs 120 --beta 0.8 --z-dim 32 --base-lr 1e-4 --max-lr 3e-4 --batch-size 256 --warmup-epochs 10
+```
 
-Command Line Arguments:
+### Command Line Arguments:
 
     --epochs: Number of training epochs (default: 120)
 
